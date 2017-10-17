@@ -13,6 +13,7 @@
 
 (with-init!
   (cell= (.log js/console error))
+  (js/setInterval doit 100)
   (doit))
 
 (html

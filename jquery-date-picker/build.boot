@@ -6,7 +6,7 @@
                   [hoplon/boot-hoplon        "0.1.10"]
                   [hoplon/hoplon             "6.0.0-alpha10"]
                   [hoplon/jquery-daterange-picker "0.0.5-0"]
-                  [hoplon/twitter-bootstrap  "0.2.0-SNAPSHOT"]
+                  [hoplon/twitter-bootstrap  "0.2.0"]
                   [org.clojure/clojure       "1.7.0"]
                   [org.clojure/clojurescript "1.7.122"]
                   [tailrecursion/boot-jetty  "0.1.0"]]

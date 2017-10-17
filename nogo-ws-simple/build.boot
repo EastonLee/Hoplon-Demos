@@ -13,7 +13,7 @@
                   [weasel                    "0.7.0" :scope "test"]
                   [org.clojure/tools.nrepl   "0.2.12" :scope "test"]
                   [adzerk/boot-cljs-repl     "0.3.3" :scope "test"]
-                  [adzerk/boot-reload        "0.4.12" :scope "test"]
+                  [adzerk/boot-reload        "0.5.2" :scope "test"]
                   [compojure                 "1.6.0-beta1"]
                   [hoplon/boot-hoplon        "0.2.2"]
                   [hoplon                    "6.0.0-alpha16"]
@@ -41,7 +41,7 @@
   []
   (comp
     (serve
-      :handler 'app.contacts/app
+      :handler 'app.random/app
       :reload true
       :port 8000
       :httpkit true

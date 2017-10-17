@@ -1,7 +1,7 @@
 (set-env!
   :dependencies '[[adzerk/boot-cljs                          "1.7.228-1"]
                   [adzerk/boot-cljs-repl                     "0.3.0"]
-                  [adzerk/boot-reload                        "0.4.5"]
+                  [adzerk/boot-reload                        "0.5.2"]
                   [com.cemerick/piggieback                   "0.2.1"]
                   [weasel                                    "0.7.0"]
                   [org.clojure/tools.nrepl                   "0.2.12"]

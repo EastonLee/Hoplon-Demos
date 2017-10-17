@@ -6,7 +6,7 @@
                   [hoplon/hoplon             "6.0.0-alpha10"]
                   [org.clojure/clojure       "1.7.0"]
                   [org.clojure/clojurescript "1.7.122"]
-                  [tailrecursion/boot-jetty  "0.1.0"]]
+                  [tailrecursion/boot-jetty "0.1.0"]]
   :source-paths   #{"src"}
   :resource-paths #{"assets"})
 
@@ -24,7 +24,7 @@
     (watch)
     (speak)
     (hoplon)
-    (cljs-repl)
+    ;; (cljs-repl)
     (cljs)
     (reload)
     (serve :port 8000)))

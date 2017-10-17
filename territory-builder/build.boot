@@ -8,14 +8,14 @@
                   [hoplon/castra             "3.0.0-SNAPSHOT"]
                   [hoplon/google-maps        "3.18.0-1"]
                   [hoplon                    "6.0.0-alpha10"]
-                  [hoplon/twitter-bootstrap  "0.2.0-SNAPSHOT"]
+                  [hoplon/twitter-bootstrap  "0.2.0"]
                   [org.clojure/clojure       "1.7.0"]
                   [org.clojure/clojurescript "1.7.122"]
                   [pandeiro/boot-http        "0.6.3"]
                   [ring                      "1.4.0"]
                   [ring/ring-defaults        "0.1.5"]]
   :resource-paths #{"assets"}
-  :source-paths   #{"src" "src/clj"})
+  :source-paths   #{"src/clj" })
 
 (require
   '[adzerk.boot-cljs         :refer [cljs]]

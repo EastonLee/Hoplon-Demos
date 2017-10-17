@@ -1,7 +1,7 @@
 (set-env!
   :dependencies '[[adzerk/boot-cljs          "1.7.48-4"]
-                  [adzerk/boot-cljs-repl     "0.1.9"]
-                  [adzerk/boot-reload        "0.3.2"]
+                  [adzerk/boot-cljs-repl     "0.3.3"]
+                  [adzerk/boot-reload        "0.5.2"]
                   [compojure                 "1.4.0"]
                   [hoplon/boot-hoplon        "0.1.10"]
                   [hoplon/castra             "3.0.0-alpha1"]
